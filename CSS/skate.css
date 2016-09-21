@@ -9,7 +9,7 @@
 
 body
 {
-    background-color: black; /* version standardisée */
+    background-color: rgba(216,216,216,216); /* version standardisée */
     color: white;
 }
 
