@@ -7,10 +7,10 @@
 }
 
 
-body
-{
-    background-color: black; /* version standardisée */
-    color: white;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #d8d8d8;
 }
 
 #bloc_page
@@ -24,7 +24,7 @@ body
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-    background: url('img/skate/slide.jpg') no-repeat;
+    background: url('../img/skate/slide.jpg') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
@@ -109,7 +109,6 @@ aside
 
 section h1, footer h1, nav a
 {
-    font-family: Dayrom, serif;
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
