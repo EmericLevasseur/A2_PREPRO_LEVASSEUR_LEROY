@@ -279,8 +279,27 @@ section {
   width: 480px;
 }
 
+#thumbs:hover li img {
+  opacity: 0.5;
+}
+
 #thumbs li {
   float: left;
+}
+
+#thumbs li:hover img {
+  opacity: 1;
+  /* L'image survolée aura une opacité de 100% */
+  z-index: 100;
+  transform: scale(1);
+}
+
+#thumbs img {
+  border: 5px solid #fff;
+  z-index: 100;
+  transition: transform 0.25s ease-in-out;
+  transform: scale(0.75);
+  /* On réduit l'image à 75% */
 }
 
 h2 {
@@ -292,25 +311,4 @@ h2 {
   border-radius: 5px;
   padding: 10px;
   color: white;
-}
-
-#thumbs li img {
-  border: 5px solid #fff;
-  z-index: 100;
-  transition: transform 0.25s ease-in-out;
-  transform: scale(0.75);
-  /* On réduit l'image à 75% */
-}
-
-#thumbs:hover li img {
-  opacity: 0.5;
-  /* Au survol de la galerie, toute les images auront une opacité de 50% */
-}
-
-#thumbs li:hover img {
-  opacity: 1;
-  /* L'image survolée aura une opacité de 100% */
-  z-index: 100;
-  transform: scale(1);
-  /* On affiche l'image à sa taille normale */
 }

@@ -151,10 +151,13 @@ aside img {
   padding: 0;
   width: 480px;
 }
+#thumbs:hover li img {
+  opacity: 0.5;
+}
 #thumbs li {
   float: left;
 }
-#thumbs li:hover {
+#thumbs li:hover img {
   opacity: 1;
   /* L'image survolée aura une opacité de 100% */
   z-index: 100;
@@ -169,7 +172,7 @@ aside img {
   -o-box-shadow: 1px 1px 10px #000;
   -webkit-box-shadow: 1px 1px 10px #000;
 }
-#thumbs li img {
+#thumbs img {
   border: 5px solid #fff;
   z-index: 100;
   transition: transform 0.25s ease-in-out;
@@ -181,7 +184,4 @@ aside img {
   -moz-transform: scale(0.75);
   -o-transform: scale(0.75);
   -webkit-transform: scale(0.75);
-}
-#thumbs li img:hover {
-  opacity: 0.5;
 }
