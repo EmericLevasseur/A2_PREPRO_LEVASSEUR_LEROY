@@ -211,12 +211,12 @@ aside h1 {
   text-align: center;
 }
 
-#titreInterview {
-  text-align: center;
-}
-
 #skateur img {
   border-radius: 50px;
+}
+
+#titreInterview {
+  text-align: center;
 }
 
 #banniere_image {
@@ -228,6 +228,13 @@ aside h1 {
   position: relative;
   box-shadow: 0px 4px 4px #1c1a19;
   margin-bottom: 25px;
+}
+
+article {
+  margin-right: 40px;
+  margin-left: 30px;
+  flex: 3;
+  text-align: justify;
 }
 
 article p {
@@ -250,21 +257,12 @@ aside {
   padding: 10px;
   color: white;
   font-size: 0.9em;
+  text-align: justify;
 }
 
 section {
   display: flex;
   margin-bottom: 20px;
-}
-
-article, aside {
-  text-align: justify;
-}
-
-article {
-  margin-right: 40px;
-  margin-left: 30px;
-  flex: 3;
 }
 
 #bodysurf {
