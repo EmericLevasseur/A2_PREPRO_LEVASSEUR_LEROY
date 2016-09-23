@@ -2,6 +2,7 @@
 
 $maCouleur: white;
 $maBanniere: 100% 140%;
+$maBanniereSurf: 100% 100%;
 
 @mixin h {
   font-size: 28px;
@@ -65,6 +66,13 @@ body {
     @include banniere;
     background: url('../img/bmx/bmx.jpg') no-repeat;
     background-size: $maBanniere;
+}
+
+#banniere_image_surf
+{
+    @include banniere;
+    background: url('../img/kelly.jpeg') no-repeat;
+    background-size: $maBanniereSurf;
 }
 
 #banniere_description
@@ -144,6 +152,7 @@ section h1, footer h1, nav a
     text-align: center;
 
     img{
+      border-radius: 50px;
       border: 1px solid #181818;
       height: 180px;
     }
