@@ -1,4 +1,6 @@
 @charset "UTF-8";
+/* Variables */
+/*-----------*/
 .video {
   text-align: left;
   margin-top: 30px;
@@ -11,8 +13,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background: url(../img/crossed_stripes.png);
   color: white;
 }
@@ -26,22 +26,22 @@ body {
   margin-top: 15px;
   height: 400px;
   border-radius: 5px;
-  background: url("../img/skate/slide.jpg") no-repeat;
-  background-size: 100% 140%;
   position: relative;
   box-shadow: 0px 4px 4px #1c1a19;
   margin-bottom: 25px;
+  background: url("../img/skate/slide.jpg") no-repeat;
+  background-size: 100% 140%;
 }
 
 #banniere_image_bmx {
   margin-top: 15px;
   height: 400px;
   border-radius: 5px;
-  background: url("../img/bmx/bmx.jpg") no-repeat;
-  background-size: 100% 140%;
   position: relative;
   box-shadow: 0px 4px 4px #1c1a19;
   margin-bottom: 25px;
+  background: url("../img/bmx/bmx.jpg") no-repeat;
+  background-size: 100% 140%;
 }
 
 #banniere_description {
