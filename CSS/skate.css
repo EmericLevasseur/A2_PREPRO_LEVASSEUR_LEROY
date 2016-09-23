@@ -88,6 +88,7 @@ article {
   margin-left: 30px;
   flex: 3;
 }
+
 article p {
   font-size: 14px;
 }
@@ -113,6 +114,7 @@ section h1, footer h1, nav a {
 #skateur {
   text-align: center;
 }
+
 #skateur img {
   border-radius: 50px;
   border: 1px solid #181818;
@@ -122,6 +124,7 @@ section h1, footer h1, nav a {
 #trasher {
   text-align: left;
 }
+
 #trasher img {
   height: 100px;
 }
@@ -163,12 +166,15 @@ aside img {
   padding: 0;
   width: 480px;
 }
+
 #thumbs:hover li img {
   opacity: 0.5;
 }
+
 #thumbs li {
   float: left;
 }
+
 #thumbs li:hover img {
   opacity: 1;
   /* L'image survolée aura une opacité de 100% */
@@ -184,6 +190,7 @@ aside img {
   -o-box-shadow: 1px 1px 10px #000;
   -webkit-box-shadow: 1px 1px 10px #000;
 }
+
 #thumbs img {
   border: 5px solid #fff;
   z-index: 100;
