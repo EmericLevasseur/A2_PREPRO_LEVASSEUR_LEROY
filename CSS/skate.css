@@ -147,12 +147,27 @@ aside img {
   list-style: none outside none;
   /* On supprime les points blancs */
   margin: 0 auto;
-  /* La galerie est centrée horizontalement */
+  /* centrée horizontalement */
   padding: 0;
   width: 480px;
 }
 #thumbs li {
   float: left;
+}
+#thumbs li:hover {
+  opacity: 1;
+  /* L'image survolée aura une opacité de 100% */
+  z-index: 100;
+  transform: scale(1);
+  /* On affiche l'image à sa taille normale */
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  box-shadow: 1px 1px 10px #000;
+  /* On ajoute une ombre */
+  -moz-box-shadow: 1px 1px 10px #000;
+  -o-box-shadow: 1px 1px 10px #000;
+  -webkit-box-shadow: 1px 1px 10px #000;
 }
 #thumbs li img {
   border: 5px solid #fff;
@@ -167,24 +182,6 @@ aside img {
   -o-transform: scale(0.75);
   -webkit-transform: scale(0.75);
 }
-
-#thumbs:hover li img {
+#thumbs li img:hover {
   opacity: 0.5;
-  /* Au survol de la galerie, toute les images auront une opacité de 50% */
-}
-
-#thumbs li:hover img {
-  opacity: 1;
-  /* L'image survolée aura une opacité de 100% */
-  z-index: 100;
-  transform: scale(1);
-  /* On affiche l'image à sa taille normale */
-  -moz-transform: scale(1);
-  -o-transform: scale(1);
-  -webkit-transform: scale(1);
-  box-shadow: 1px 1px 10px #000;
-  /* On ajoute une ombre */
-  -moz-box-shadow: 1px 1px 10px #000;
-  -o-box-shadow: 1px 1px 10px #000;
-  -webkit-box-shadow: 1px 1px 10px #000;
 }
